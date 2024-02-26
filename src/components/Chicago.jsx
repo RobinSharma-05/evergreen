@@ -1,5 +1,5 @@
 import React from "react";
-import chicago_section_img from "../assets/images/png/chicago.png";
+import chicago_section_img from "../assets/images/webp/chicago.webp";
 
 const Chicago = () => {
   return (

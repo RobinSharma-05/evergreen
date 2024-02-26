@@ -1,7 +1,7 @@
 import React from "react";
-import services_1 from "../assets/images/png/services_image_1.png";
-import services_2 from "../assets/images/png/services_image_2.png";
-import services_3 from "../assets/images/png/services_image_3.png";
+import services_1 from "../assets/images/webp/services_image_1.webp";
+import services_2 from "../assets/images/webp/services_image_2.webp";
+import services_3 from "../assets/images/webp/services_image_3.webp";
 
 const Services = () => {
   return (

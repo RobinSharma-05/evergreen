@@ -1,16 +1,16 @@
 import React from "react";
 import Slider from "react-slick";
-import slider1_1 from "../assets/images/png/slider1_1.png";
-import slider1_2 from "../assets/images/png/slider1_2.png";
-import slider1_3 from "../assets/images/png/slider1_3.png";
-import slider1_4 from "../assets/images/png/slider1_4.png";
-import slider2_1 from "../assets/images/png/slider2_1.png";
-import slider2_2 from "../assets/images/png/slider2_2.png";
-import slider2_3 from "../assets/images/png/slider2_3.png";
-import slider2_4 from "../assets/images/png/slider2_4.png";
-import slider2_5 from "../assets/images/png/slider2_5.png";
-import slider2_6 from "../assets/images/png/slider2_6.png";
-import slider2_7 from "../assets/images/png/slider2_7.png";
+import slider1_1 from "../assets/images/webp/slider1_1.webp";
+import slider1_2 from "../assets/images/webp/slider1_2.webp";
+import slider1_3 from "../assets/images/webp/slider1_3.webp";
+import slider1_4 from "../assets/images/webp/slider1_4.webp";
+import slider2_1 from "../assets/images/webp/slider2_1.webp";
+import slider2_2 from "../assets/images/webp/slider2_2.webp";
+import slider2_3 from "../assets/images/webp/slider2_3.webp";
+import slider2_4 from "../assets/images/webp/slider2_4.webp";
+import slider2_5 from "../assets/images/webp/slider2_5.webp";
+import slider2_6 from "../assets/images/webp/slider2_6.webp";
+import slider2_7 from "../assets/images/webp/slider2_7.webp";
 
 const Sliderr = () => {
   var settings = {

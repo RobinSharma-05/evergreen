@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
-import logoo from "../assets/images/png/logoo.png";
-import bg_header_image from "../assets/images/png/bg-header-image-1.png";
-import bg_header_image_2 from "../assets/images/png/bg-header-image-2.png";
-import bg_header_image_3 from "../assets/images/png/bg-header-image-3.png";
-import arrow_left from "../assets/images/png/arrow_left.png";
-import arrow_right from "../assets/images/png/arrow_right.png";
+import logoo from "../assets/images/webp/logoo.webp";
+import bg_header_image from "../assets/images/webp/bg-header-image-1.webp";
+import bg_header_image_2 from "../assets/images/webp/bg-header-image-2.webp";
+import bg_header_image_3 from "../assets/images/webp/bg-header-image-3.webp";
+import arrow_left from "../assets/images/webp/arrow_left.webp";
+import arrow_right from "../assets/images/webp/arrow_right.webp";
 
 const HeroSection = () => {
   const slider = React.useRef(null);

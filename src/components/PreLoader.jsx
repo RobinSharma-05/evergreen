@@ -1,5 +1,5 @@
 import React from "react";
-import Preloader from "../assets/images/png/logoo.png";
+import Preloader from "../assets/images/webp/logoo.webp";
 
 function PreLoader() {
   setTimeout(() => {
