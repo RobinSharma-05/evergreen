@@ -85,7 +85,7 @@ const Sliderr = () => {
     ],
   };
   return (
-    <div className="my-[111px]">
+    <div className="my-12 xl:my-[111px]">
       <h4 className="ff_libre font-normal text-4xl text-center mb-[45px]">
         Gallery
       </h4>{" "}
