@@ -38,7 +38,7 @@ const HeroSection = () => {
             <ul className="flex gap-[30px] items-center">
               <li className="hidden min-[950px]:block">
                 <a
-                  className="font-poppins text-[15px] not-italic font-semibold leading-normal relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
+                  className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
                   href="#footer"
                 >
                   Home
@@ -46,7 +46,7 @@ const HeroSection = () => {
               </li>
               <li className="hidden min-[950px]:block">
                 <a
-                  className="font-poppins text-[15px] not-italic font-semibold leading-normal relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
+                  className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
                   href="#footer"
                 >
                   About us
@@ -54,7 +54,7 @@ const HeroSection = () => {
               </li>
               <li className="hidden min-[950px]:block">
                 <a
-                  className="font-poppins text-[15px] not-italic font-semibold leading-normal relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
+                  className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
                   href="#footer"
                 >
                   Our Services
@@ -62,7 +62,7 @@ const HeroSection = () => {
               </li>
               <li className="hidden min-[950px]:block">
                 <a
-                  className="font-poppins text-[15px] not-italic font-semibold leading-normal relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
+                  className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
                   href="#footer"
                 >
                   Gallery
@@ -70,7 +70,7 @@ const HeroSection = () => {
               </li>
               <li className="hidden min-[950px]:block">
                 <a
-                  className="font-poppins text-[15px] not-italic font-semibold leading-normal relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
+                  className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
                   href="#footer"
                 >
                   Contact Us
@@ -115,7 +115,7 @@ const HeroSection = () => {
         >
           <li>
             <a
-              className="font-poppins text-[15px] not-italic font-semibold leading-normal min-[992px]:ml-[65px] relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
+              className="ff_poppins font-normal text-base min-[992px]:ml-[65px] relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
               href="#section1"
               onClick={() => setOpen(false)}
             >
@@ -124,7 +124,7 @@ const HeroSection = () => {
           </li>
           <li>
             <a
-              className="font-poppins text-[15px] not-italic font-semibold leading-normal relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
+              className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
               href="#section2"
               onClick={() => setOpen(false)}
             >
@@ -133,7 +133,7 @@ const HeroSection = () => {
           </li>
           <li>
             <a
-              className="font-poppins text-[15px] not-italic font-semibold leading-normal relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
+              className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
               href="#section3"
               onClick={() => setOpen(false)}
             >
@@ -142,7 +142,7 @@ const HeroSection = () => {
           </li>
           <li>
             <a
-              className="font-poppins text-[15px] not-italic font-semibold leading-normal relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
+              className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
               href="#footer"
               onClick={() => setOpen(false)}
             >
@@ -151,7 +151,7 @@ const HeroSection = () => {
           </li>
           <li>
             <a
-              className="font-poppins text-[15px] not-italic font-semibold leading-normal relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
+              className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
               href="#footer"
               onClick={() => setOpen(false)}
             >
