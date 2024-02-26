@@ -11,7 +11,7 @@ const Chicago = () => {
           alt=""
         />
         <div>
-          <h3 className="ff_libre text-2xl md:text-3xl lg:text-4xl font-medium text-center lg:text-start">
+          <h3 className="ff_libre text-3xl md:text-3xl lg:text-4xl font-medium text-center lg:text-start">
             Evergreen Landscapes is a full-service landscaping company servicing
             the{" "}
             <span className="italic font-medium text-[#88C701]">Chicago</span>{" "}

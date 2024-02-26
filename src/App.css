@@ -11,3 +11,10 @@ html,
 body {
   scroll-behavior: smooth;
 }
+.calc_h {
+  height: calc(100vh - 96px) !important;
+}
+input:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px #88c701;
+}

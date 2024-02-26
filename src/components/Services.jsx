@@ -6,7 +6,7 @@ import services_3 from "../assets/images/webp/services_image_3.webp";
 const Services = () => {
   return (
     <div className="max-w-[1140px] mx-auto">
-      <h4 className="flex justify-center ff_libre font-medium text-4xl">
+      <h4 className="flex justify-center ff_libre font-medium text-3xl md:text-3xl lg:text-4xl">
         Our Services
       </h4>
       <div className="flex-wrap flex justify-center items-center gap-6 mt-[37px]">

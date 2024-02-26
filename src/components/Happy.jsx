@@ -6,7 +6,7 @@ const Happy = () => {
   return (
     <div className="max-w-[1440px] mx-auto">
       <div className="mt-[124px]">
-        <h4 className="ff_libre font-normal text-4xl text-center gap-2">
+        <h4 className="ff_libre font-normal text-3xl md:text-3xl lg:text-4xl text-center gap-2">
           Check out our{" "}
           <span className="italic text-[#88C701]">happy clients</span>
         </h4>

@@ -9,8 +9,8 @@ const Bonded = () => {
         <span className="text-[#88C701]"> - </span> Insured
       </h2>
       <div className="bg-[url('/src/assets/images/png/dots_image.png')] bg-center bg-cover bg-no-repeat">
-        <div className="py-[76px]">
-          <h2 className="ff_libre font-normal text-2xl md:text-3xl lg:text-4xl max-w-[474px] text-center mx-auto">
+        <div className="py-11 md:py-[76px]">
+          <h2 className="ff_libre font-normal text-3xl md:text-3xl lg:text-4xl max-w-[474px] text-center mx-auto">
             Why{" "}
             <span className="text-[#88C701] font-medium italic">
               customers choose

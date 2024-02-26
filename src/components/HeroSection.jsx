@@ -28,14 +28,18 @@ const HeroSection = () => {
       : document.body.classList.remove("overflow-hidden");
   }
   return (
-    <div>
+    <div id="home">
       <nav>
         <div className="h-[96px] flex items-center justify-between w-full">
-          <a href="" className="w-1/2 md:w-1/4" onClick={() => setOpen(false)}>
+          <a
+            href="#"
+            className="w-2/3 md:w-1/3 xl:w-[23%]"
+            onClick={() => setOpen(false)}
+          >
             <img className="w-10/12 z-10 relative" src={logoo} alt="logo" />
           </a>
           <div className="flex items-center">
-            <ul className="flex gap-[30px] items-center">
+            <ul className="flex md:gap-5 gap-[30px] items-center">
               <li className="hidden min-[950px]:block">
                 <a
                   className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
@@ -184,7 +188,7 @@ const HeroSection = () => {
             alt=""
           />
           <img
-            className="w-full min-h-[80vh] object-cover"
+            className="w-full calc_h object-cover"
             src={bg_header_image}
             alt=""
           />
@@ -219,7 +223,7 @@ const HeroSection = () => {
             alt=""
           />
           <img
-            className="w-full min-h-[80vh] object-cover"
+            className="w-full calc_h object-cover"
             src={bg_header_image_2}
             alt=""
           />
@@ -253,7 +257,7 @@ const HeroSection = () => {
             alt=""
           />
           <img
-            className="w-full min-h-[80vh] object-cover"
+            className="w-full calc_h object-cover"
             src={bg_header_image_3}
             alt=""
           />
