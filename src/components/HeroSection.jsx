@@ -78,7 +78,7 @@ const HeroSection = () => {
               </li>
               <li className="hidden min-[950px]:block">
                 <a
-                  className="w-[202px] h-[96px] p-[15px, 27px, 15px, 27px] bg-[#88C701] flex justify-center items-center"
+                  className="w-[202px] h-[96px] p-[15px, 27px, 15px, 27px] text-white bg-[#88C701] flex justify-center items-center"
                   href="#footer"
                 >
                   Request a quote
@@ -160,7 +160,7 @@ const HeroSection = () => {
           </li>
           <li>
             <a
-              className="rounded-[10px] py-3 px-4 bg-[#88C701] flex justify-center items-center"
+              className="rounded-[10px] py-3 px-4 text-white bg-[#88C701] flex justify-center items-center"
               href="#footer"
               onClick={() => setOpen(false)}
             >
