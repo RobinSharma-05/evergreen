@@ -3,7 +3,7 @@ import { Puzzle1, Puzzle2, Puzzle3 } from "./Icons";
 
 const Bonded = () => {
   return (
-    <div>
+    <div id="aboutus">
       <h2 className="ff_libre font-medium italic text-2xl md:text-3xl xl:text-4xl flex justify-center my-12 md:my-[94px] gap-[11px]">
         Licensed <span className="text-[#88C701]"> - </span> Bonded{" "}
         <span className="text-[#88C701]"> - </span> Insured

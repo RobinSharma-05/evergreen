@@ -43,7 +43,7 @@ const HeroSection = () => {
               <li className="hidden min-[950px]:block">
                 <a
                   className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
-                  href="#footer"
+                  href="#home"
                 >
                   Home
                 </a>
@@ -51,7 +51,7 @@ const HeroSection = () => {
               <li className="hidden min-[950px]:block">
                 <a
                   className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
-                  href="#footer"
+                  href="#aboutus"
                 >
                   About us
                 </a>
@@ -59,7 +59,7 @@ const HeroSection = () => {
               <li className="hidden min-[950px]:block">
                 <a
                   className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
-                  href="#footer"
+                  href="#services"
                 >
                   Our Services
                 </a>
@@ -67,7 +67,7 @@ const HeroSection = () => {
               <li className="hidden min-[950px]:block">
                 <a
                   className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
-                  href="#footer"
+                  href="#gallery"
                 >
                   Gallery
                 </a>
@@ -75,14 +75,14 @@ const HeroSection = () => {
               <li className="hidden min-[950px]:block">
                 <a
                   className="ff_poppins font-normal text-base relative after:absolute after:h-[2px] duration-300 after:w-[0%] hover:after:w-[75%] after:bg-black after:left-[50%] after:duration-300 hover:after:left-[13%] after:bottom-[-4px] after:rounded-[10px]"
-                  href="#footer"
+                  href="#contact"
                 >
                   Contact Us
                 </a>
               </li>
               <li className="hidden min-[950px]:block">
                 <a
-                  className="w-[202px] h-[96px] p-[15px, 27px, 15px, 27px] text-white bg-[#88C701] flex justify-center items-center"
+                  className="w-[202px] h-[96px] p-[15px, 27px, 15px, 27px] text-white transition-all duration-300 hover:bg-[#a9d54ae4] bg-[#88C701] flex justify-center items-center"
                   href="#footer"
                 >
                   Request a quote
@@ -113,7 +113,7 @@ const HeroSection = () => {
           </div>
         </div>
         <ul
-          className={`w-full h-full fixed flex min-[950px]:hidden justify-center items-center flex-col gap-6 bg-white z-[7] left-[-100%] duration-300 ${
+          className={`w-full h-[calc(100%-100px)] fixed flex min-[950px]:hidden justify-center items-center flex-col gap-6 bg-white z-[7] left-[-100%] duration-300 ${
             open == false ? "" : "left-[0%]"
           }`}
         >
@@ -174,7 +174,7 @@ const HeroSection = () => {
         </ul>
       </nav>
       <Slider ref={slider} {...settings}>
-        <div className="relative">
+        <div className="relative" id="home">
           <img
             onClick={() => slider?.current?.slickPrev()}
             className="absolute left-4 md:left-7 top-[40%] cursor-pointer z-10 w-[5%] md:w-[2%]"
